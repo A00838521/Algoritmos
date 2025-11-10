@@ -1,0 +1,22 @@
+CLASE 03 - DECREMENTA Y VENCERÁS
+
+Idea general:
+- Resolver el problema reduciendo su tamaño en una unidad o en una cantidad constante (n -> n-1, n-k).
+
+Diagrama ASCII:
+
+Problema(n)
+   |
+   v
+Problema(n-1) -> Problema(n-2) -> ... -> Problema(1) -> solución
+
+Ejemplos:
+- Búsqueda en ordenamiento, eliminación iterativa, inserción incremental.
+
+Complejidad:
+- Depende del costo por paso y número de pasos (~n pasos * costo por paso).
+
+---
+Recursos detectados:
+- PDF: clase 03 - decrementa y venceras.pdf
+- Notebooks: (no detectados)

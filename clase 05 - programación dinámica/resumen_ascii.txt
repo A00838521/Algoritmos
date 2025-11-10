@@ -1,0 +1,29 @@
+CLASE 05 - PROGRAMACIÓN DINÁMICA
+
+Idea general:
+- Resolver problemas optimizando subestructuras y memorizando subproblemas para evitar recomputación.
+
+Diagrama ASCII (tabla DP):
+
+   j ->  0   1   2   3  ...
+i
+| 0   [ ] [ ] [ ] [ ]
+| 1   [ ] [ ] [ ] [ ]
+| 2   [ ] [ ] [ ] [ ]
+| 3   [ ] [ ] [ ] [ ]
+V
+
+Flechas indican dependencia:
+[ i,j ] <- [ i-1,j ] y/o [ i,j-1 ] y/o [ i-1,j-1 ]
+
+Patrones:
+- Top-Down (memo) o Bottom-Up (tabulación).
+
+Complejidad:
+- Estados * transiciones por estado.
+
+---
+Recursos detectados:
+- PDF: clase 05 - programacion dinamica .pdf
+- Notebooks: (no detectados)
+- Carpetas: instancias goldMining/

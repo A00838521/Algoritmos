@@ -1,0 +1,18 @@
+CLASE 10 - PALÍNDROMOS
+
+Idea general:
+- Comprobar simetría respecto a un centro (expandir alrededor del centro) o usar DP/Manacher.
+
+ASCII (expand-around-center):
+
+s = "a b a x a b a"
+        ^ centro
+    <---| |--->   comparar pares
+
+DP (LPS):
+- L[i][j] = 2 + L[i+1][j-1] si s[i]==s[j], sino max(L[i+1][j], L[i][j-1])
+
+---
+Recursos detectados:
+- PDF: clase 10 - palindromos.pdf
+- Notebooks: (no detectados)

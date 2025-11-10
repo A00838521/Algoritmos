@@ -1,0 +1,17 @@
+CLASE 19 - INTERSECCIÓN DE SEGMENTOS
+
+Idea general:
+- Línea de barrido + estructura ordenada de segmentos (por y). Detectar eventos (puntos extremos y cruces).
+
+ASCII (sweep line):
+
+x = ->
+|
+|  /\      /-
+| /  \____/  \
+|/             \
++---------------+---->
+ ^ eventos      ^ eventos
+
+Complejidad:
+- O((n + k) log n) con k intersecciones.

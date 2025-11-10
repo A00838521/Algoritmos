@@ -1,0 +1,19 @@
+CLASE 22 - DIAGRAMAS DE VORONOI
+
+Objetivo:
+- Particionar el plano según la proximidad al sitio más cercano.
+
+ASCII:
+
+Sitios: x
+Regiones aproximadas:
+  |\  |  /|
+  | \ | / |
+--+--\+ /-+--
+  |  / x  |
+  | /  |\ |
+  |/   | \|
+
+Relacionados:
+- Triangulación de Delaunay (dual).
+Algoritmos: Fortune (line sweep) O(n log n).

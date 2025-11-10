@@ -1,0 +1,31 @@
+CLASE 02 - FUERZA BRUTA
+
+Idea general:
+- Probar todas las combinaciones/posibilidades y quedarse con la mejor/primera que cumple.
+- Complejidad suele ser exponencial o polinómica alta, pero simple de implementar.
+
+Diagrama ASCII (búsqueda exhaustiva):
+
+nivel 0           nivel 1           nivel 2           ...
+   (raíz)
+     |\
+     | \____________________
+     |                      \
+   opción1                 opción2  ...
+     |                         |
+   subop1                   subop1
+     |                         |
+   [sol?]                   [sol?]
+
+Uso típico:
+- Matching de cadenas simple, 2-SAT ingenuo, TSP por permutaciones, etc.
+
+Pros/Contras:
++ Fácil de programar.
+- Escala mal; se usa para n pequeño o como baseline.
+
+---
+Recursos detectados:
+- PDF: clase 02 - fuerza bruta.pdf
+- Notebooks: (no detectados)
+- Código/otros: base - closest pair.py, base - string matching.py, closestPair-stringMatching.cpp, instances/

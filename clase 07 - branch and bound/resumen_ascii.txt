@@ -1,0 +1,26 @@
+CLASE 07 - BRANCH AND BOUND
+
+Idea general:
+- Explorar árbol de búsqueda con cotas (bounds) para descartar ramas que no pueden mejorar la mejor solución actual.
+
+Diagrama ASCII:
+
+            nodo (valor=12, bound=20)
+            /                 \
+   hijo A (val=15, b=19)   hijo B (val=10, b=13)
+         /        \
+   poda (b<=mejor)  explora
+
+Claves:
+- Cota superior/inferior rápida y ajustada.
+- Estructuras de prioridad para elegir el siguiente nodo (best-first).
+
+Aplicaciones:
+- TSP, Knapsack, Asignación, Scheduling.
+
+---
+Recursos detectados:
+- PDF: clase 07 branch and bound.pdf
+- Notebooks: branch_and_bound_base_lunes_completo.ipynb, branch-and-bound-2025-base.ipynb
+- Código: branch_and_bound_base_lunes_completo.py
+- Carpetas: instances/

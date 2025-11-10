@@ -1,0 +1,15 @@
+CLASE 17 - MAX FLOW
+
+Idea general:
+- Aumentar flujo desde s a t mientras exista un camino aumentante en la red residual.
+
+ASCII (capacidades):
+ s --(10)--> a --(4)--> t
+  \         ^          ^
+   \--(5)--> b --(7)---/
+
+Red residual actualiza capacidades y permite retornos.
+Algoritmos: Ford-Fulkerson/Edmonds-Karp (BFS), Dinic.
+
+Complejidad:
+- Edmonds-Karp O(V E^2), Dinic mejor en práctica.

@@ -1,0 +1,20 @@
+CLASE 16 - CAMINOS MÁS CORTOS Y COLOREADO
+
+Caminos más cortos (Dijkstra):
+
+ASCII:
+(dist)
+[ s:0 ] --(2)--> [ v:2 ] --(3)--> [ t:5 ]
+   |(1)
+   v
+ [ u:1 ] --(2)--> [ t:3 ]  (relaja mejor)
+
+Coloreado de grafos:
+- Asignar colores a vértices sin que adyacentes compartan color.
+
+ASCII:
+1(r) -- 2(g)
+ |       |
+3(g) -- 4(r)
+
+Greedy de coloreado ≈ heurístico; exacto es NP-difícil.

@@ -1,0 +1,28 @@
+CLASE 06 - BACKTRACKING
+
+Idea general:
+- Explorar el árbol de estados y retroceder (backtrack) cuando una decisión no puede conducir a solución.
+
+Diagrama ASCII (árbol con poda):
+
+          [raíz]
+          /   \
+       dec1   dec2
+       /  \     X  <- poda (inviable)
+    dec11 dec12
+     /
+   SOLUCIÓN
+
+Claves:
+- Pruebas de factibilidad parciales.
+- Orden de decisiones afecta rendimiento.
+
+Aplicaciones:
+- Sudoku, N-Reinas, Subset Sum, Grafos Hamiltonianos.
+
+---
+Recursos detectados:
+- PDF: clase 06 backtraking.pdf
+- Notebooks: backtracking_grupoLunes.ipynb, backtracking_sum_set_602.ipynb, Copy_of_backtracking_sum_set_602.ipynb
+- Código: backtracking_sum_set_602.py, copy_of_backtracking_sum_set_602.py
+- Otros: link.txt

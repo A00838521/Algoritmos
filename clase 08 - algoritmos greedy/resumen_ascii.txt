@@ -1,0 +1,21 @@
+CLASE 08 - ALGORITMOS GREEDY
+
+Idea general:
+- Construir solución eligiendo en cada paso la decisión localmente óptima con esperanza de globalidad.
+
+Diagrama ASCII:
+
+items ordenados -> [ i1 ] -> [ i2 ] -> [ i3 ] -> ... -> SOL
+                  (mejor local en cada paso)
+
+Claves:
+- Propiedades: subestructura óptima + elección codiciosa.
+
+Ejemplos:
+- Interval Scheduling, Kruskal/Prim (MST), Huffman.
+
+---
+Recursos detectados:
+- PDF: clase 08 - Algoritmos greedy.pdf
+- Notebooks: ejemplo_greedy.ipynb
+- Carpetas: coinCollecting/, knapsack/

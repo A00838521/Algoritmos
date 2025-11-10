@@ -1,0 +1,14 @@
+CLASE 18 - CLOSEST PAIR (D&C)
+
+Idea general:
+- Ordenar por x, dividir en mitades, resolver recursivo y revisar franja (strip) central por y.
+
+ASCII (strip):
+
+|<---- L ---->|<---- R ---->|
+           |<- δ ->|
+           +  +  +
+           +  +  +    <= solo comparar vecinos cercanos por y
+
+Complejidad:
+- O(n log n).

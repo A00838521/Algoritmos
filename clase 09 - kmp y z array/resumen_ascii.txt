@@ -1,0 +1,25 @@
+CLASE 09 - KMP Y Z-ARRAY
+
+KMP (prefijos/sufijos propios):
+Texto T, Patrón P
+
+ASCII (fallas / pi):
+P: a b a b a c
+pi:0 0 1 2 3 0
+
+Alineación:
+T: a b a b a a b a b a c ...
+P: a b a b a c
+   ^^^^\__ factor común reutilizado
+
+Z-Array (Z[i] = longitud del prefijo de T que inicia en i):
+T: a a a b a a a b
+Z: 0 2 1 0 3 2 1 0
+
+Uso:
+- Búsqueda de patrones O(n+m).
+
+---
+Recursos detectados:
+- PDF: clase 09 - KMP y Z.pdf
+- Notebooks: (no detectados)

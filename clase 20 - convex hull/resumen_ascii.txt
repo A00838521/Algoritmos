@@ -1,0 +1,15 @@
+CLASE 20 - CONVEX HULL
+
+Objetivo:
+- Envolver puntos en el menor polígono convexo que los contenga.
+
+ASCII:
+
+   *   *      *
+ *     *  *
+      *****    <- casco convexo
+ *   *     *
+
+Algoritmos:
+- Graham Scan (ordenar por ángulo + pila), Quickhull (tipo divide y vencerás), Jarvis (gift wrapping).
+Complejidad típica: O(n log n).

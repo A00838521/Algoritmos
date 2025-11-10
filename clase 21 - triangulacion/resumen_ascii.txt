@@ -1,0 +1,22 @@
+CLASE 21 - TRIANGULACIÓN
+
+Objetivo:
+- Dividir un polígono (simple) en triángulos sin intersecar diagonales.
+
+ASCII:
+
+Polygon:
++-----+\
+| \    \
+|  \    +
+|   \  /
++----+/
+
+Triangulación (diagonales):
++-----+\
+| \\   \
+|  \\   +
+|   \\ /
++----+/
+
+Métodos: ear clipping, Delaunay (para puntos), DP en polígonos convexos.

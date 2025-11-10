@@ -1,0 +1,16 @@
+CLASE 12 - TRIE
+
+Idea general:
+- Árbol de prefijos de cadenas; cada arista lleva un carácter.
+
+ASCII:
+
+(root)
+  |-- a -- p -- p -- l -- e (fin)
+  |-- a -- p -- r -- i -- l (fin)
+  |-- b -- a -- t (fin)
+
+Operaciones:
+- Insertar, buscar prefijos, autocompletar.
+Complejidad:
+- O(longitud) por operación.

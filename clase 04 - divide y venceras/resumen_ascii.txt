@@ -1,0 +1,23 @@
+CLASE 04 - DIVIDE Y VENCERÁS
+
+Idea general:
+- Dividir el problema en subproblemas más pequeños, resolverlos recursivamente y combinar.
+
+Diagrama ASCII (árbol de recursión):
+
+               P(n)
+              /    \
+          P(n/2)  P(n/2)
+           /  \     /   \
+       ...   ...  ...   ...
+
+Ejemplos:
+- MergeSort, QuickSort, Closest Pair (D&C), FFT.
+
+T(n) típico:
+- T(n) = a T(n/b) + f(n). Se resuelve con Teorema Maestro.
+
+---
+Recursos detectados:
+- PDF: clase 04 - divide y venceras.pdf
+- Notebooks: (no detectados)

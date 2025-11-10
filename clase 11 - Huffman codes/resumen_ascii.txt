@@ -1,0 +1,23 @@
+CLASE 11 - HUFFMAN CODES
+
+Idea general:
+- Árbol binario de prefijos con pesos mínimos combinando los dos nodos de menor frecuencia iterativamente.
+
+ASCII:
+
+    ( )
+   /   \
+ ( )    ( )
+ / \    /  \
+a:5 b:7 c:10 d:15 ...
+
+Códigos:
+- a -> 110, b -> 111, c -> 10, d -> 0 (ejemplo)
+
+Complejidad:
+- O(n log n) con heap.
+
+---
+Recursos detectados:
+- PDF: clase 11 - huffman codes.pdf
+- Notebooks: codigos_huffman-base.ipynb, codigos_huffman_grupoLunes.ipynb
